@@ -32,14 +32,14 @@
 /************************************************
 DECLARACION DE APUNTADORES PARA ACCESO A MEMORIA
  ************************************************/
-    uint8_t *p1_in  = (uint8_t*)0x040004c00;
-    uint8_t *p1_out = (uint8_t*)0x040004c02;
-    uint8_t *p1_dir = (uint8_t*)0x040004c04;
-    uint8_t *p1_ren = (uint8_t*)0x040004c06;
+    uint8_t volatile *p1_in  = (uint8_t*)0x040004c00;
+    uint8_t volatile *p1_out = (uint8_t*)0x040004c02;
+    uint8_t volatile *p1_dir = (uint8_t*)0x040004c04;
+    uint8_t volatile *p1_ren = (uint8_t*)0x040004c06;
 
-    uint8_t *p2_in  = (uint8_t*)0x040004c01;
-    uint8_t *p2_out = (uint8_t*)0x040004c03;
-    uint8_t *p2_dir = (uint8_t*)0x040004c05;
+    uint8_t volatile *p2_in  = (uint8_t*)0x040004c01;
+    uint8_t volatile *p2_out = (uint8_t*)0x040004c03;
+    uint8_t volatile *p2_dir = (uint8_t*)0x040004c05;
 
 /************************************************
     PROTOTIPO DE FUNCION
